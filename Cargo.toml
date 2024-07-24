@@ -1,0 +1,11 @@
+[package]
+name = "serial_sniffer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+argh = "0.1.12"
+crossbeam-channel = "0.5.13"
+ctrlc = "3.4.4"
+serialport = "4.4.0"
